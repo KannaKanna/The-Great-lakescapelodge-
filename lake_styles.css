@@ -106,6 +106,7 @@ body {
 #notes ul li a:link {
   color: antiquewhite;
 }
+#notes ul{list-style-type: square;}
 #events {
   background-color: rgba(147, 131, 238, 0.729);
 }
