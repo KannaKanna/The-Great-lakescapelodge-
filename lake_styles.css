@@ -1,0 +1,128 @@
+﻿/* Page color and formatting
+
+	Author: Nadia lee
+	Date: 7/31/2024
+	Filename: lake_styles.css */
+HTML {
+  background-color: rgba(9, 102, 156, 0.499);
+  font-family: sans-serif;
+}
+body > header > nav > ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 12px;
+  margin: 0 0;
+  padding: 0 0;
+  padding-right: 15px;
+}
+body > header > nav > ul > li:active,
+body > header > nav > ul > li > a:hover,
+body > header > nav > ul > li > a {
+  color: antiquewhite;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 10px 10px;
+}
+body > header > nav > ul,
+footer {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: rgba(8, 62, 96, 0.833);
+}
+header,
+h1,
+h2,
+h3 {
+  font-family: sans-serif;
+}
+
+footer {
+  justify-content: center;
+  padding: 10px 10px;
+  font-size: 20px;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+#leftcol {
+  padding-left: 30px;
+}
+#rightcol {
+  background-color: rgba(128, 48, 48, 0.718);
+  padding: 0;
+  padding-bottom: 50%;
+  margin: 0 0;
+  color: antiquewhite;
+  text-align: center;
+}
+#rightcol > h2 {
+  font-size: 40px;
+  padding: 0;
+  margin: 10px;
+}
+
+#rightcol li {
+  list-style: none;
+
+  font-size: 18px;
+  border: 0px 0px;
+  padding-left: 10px;
+}
+#rightcol > ul {
+  text-align: left;
+  margin: 20px;
+  padding: zero;
+}
+#rightcol li:first-child {
+  font-weight: bold;
+}
+
+#rightcol a:link,
+#rightcol a:active,
+#rightcol a:hover,
+#rightcol a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+#notes,
+#events {
+  border-radius: 30px;
+  border-width: 2px;
+
+  padding: 10px 20px;
+  border-color: black;
+  border-style: solid;
+}
+#notes {
+  background-color: rgb(7, 167, 84);
+}
+#notes ul li a:active,
+#notes ul li a:hover,
+#notes ul li a:visited,
+#notes ul li a:link {
+  color: antiquewhite;
+}
+#events {
+  background-color: rgba(147, 131, 238, 0.729);
+}
+p {
+  font-size: 17px;
+}
+
+blockquote {
+  text-align: left;
+}
+#events p {
+  font-size: 15px;
+  padding: 15px 25px;
+}
+#notes ul {
+  padding-left: 15px;
+}
+#leftcol {
+  width: max-content;
+}
